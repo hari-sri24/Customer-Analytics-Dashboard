@@ -1,22 +1,27 @@
-# Customer Analytics & Segmentation Dashboard
+# 📊 Customer Analytics & Segmentation Report (2-Page Executive Dashboard)
 
-## Project Overview
-This project analyzes a dataset of **40,000 customers** to evaluate customer segmentation, tier distribution, age demographics, and regional spending behavior to support targeted marketing and sales strategy.
+## 📌 Project Overview
+An end-to-end customer analytics project processing **40,000 customer records** to evaluate tier performance, demographic distributions, geographic revenue density, and order behavioral patterns.
 
-## Tools Used
-- Power BI / Excel / Python: Data cleaning, metric calculation, and visual dashboard design.
-- SQL: Aggregating customer metrics by tier, age group, and geographic state.
+## 📁 Repository Structure
+- `customers.csv` — Cleaned raw dataset (40,000 records).
+- `Dashboard_Page_1.png` — Executive KPI & Demographics View.
+- `Dashboard_Page_2.png` — Geographic & Registration Velocity View.
+- `Customer_Queries.sql` — SQL scripts for database queries and aggregations.
 
-## Key Summary Metrics
-- Total Customers Analyzed: 40,000
-- Total Revenue Generated:  $4,741,566,354.41
-- Average Spend per Customer: $118,539.16
+---
 
-## Key Business Insights Discovered
-1. Tier Dominance: Platinum tier customers make up the vast majority of the user base (27,349 out of 40,000), driving the highest share of overall revenue.
-2. Demographics:  The 26–35 age group represents the largest customer segment, indicating strong adoption among young professionals.
-3. Geographic Performance: UP, Rajasthan, and Haryana lead all states in cumulative customer spending.
+## 📊 Interactive Dashboard Previews
 
-## How to Review
-- Check the `customers.csv` dataset in this repository.
-- Review the `Customer_Queries.sql` script for data aggregation logic.
+### Page 1: Executive KPI & Demographics
+![Dashboard Page 1](Dashboard_Page_1.png)
+
+### Page 2: Geographic & Registration Trends
+![Dashboard Page 2](Dashboard_Page_2.png)
+
+---
+
+## 💡 Key Business Insights
+1. **Tier Concentration:** Platinum members represent 68.3% of users but account for 94% of total revenue ($4.45B), yielding an Average Order Value of $31,341.
+2. **Core Demographics:** Young professionals (26–35 years) form the primary revenue engine, spending an average of $145,997 per customer.
+3. **Geographic Strategy:** Top performing states (UP, Rajasthan, Haryana) account for over $1.8B in combined revenue.
